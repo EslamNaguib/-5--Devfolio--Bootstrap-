@@ -1,0 +1,32 @@
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-block: 0;
+        padding-inline: 2px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .product-filter-header {
+        ul li {
+            &:hover {
+                color: var(--text-p-color) !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 1365px) {
+    .card:hover {
+        transform: translateY(-10px);
+        border-bottom-color: var(--main-color);
+
+        .card-body {
+            h3 {
+                a {
+                    color: var(--main-color);
+                }
+            }
+        }
+    }
+}

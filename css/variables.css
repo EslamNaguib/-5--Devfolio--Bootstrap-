@@ -1,0 +1,20 @@
+:root {
+    /* ******* colors ******* */
+
+    --main-color: #0078ff;
+    --main-hover-color: rgba(0, 120, 255, .8);
+    --text-p-color: rgba(78, 78, 78, .7);
+    --black-color: rgba(9, 9, 9, 1);
+    --background-white: #fff;
+    /* ******* Fonts ******* */
+
+    --font-1: "Raleway", sans-serif;
+    --font-2: "Roboto", sans-serif;
+    --font-3: "Poppins", sans-serif;
+    ;
+
+
+    /* ******** Units ******** */
+
+    --duration-time: 400ms;
+}
