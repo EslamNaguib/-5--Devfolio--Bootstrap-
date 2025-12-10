@@ -136,6 +136,38 @@ button:focus:not(:focus-visible) {
     font-size: 28px;
 }
 
+.dropdown .dropdown-menu li {
+    cursor: pointer;
+
+}
+
+.dropdown .dropdown-menu li:hover {
+    color: var(--main-color);
+}
+
+.dropstart .dropdown-toggle::before {
+    transform: rotate(-90deg);
+    transition: var(--duration-time);
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.dropstart .dropdown-toggle.show::before {
+    transform: rotate(0deg);
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    border: none;
+}
+
+.dropstart .dropdown-menu[data-bs-popper] {
+    right: 110%;
+}
+
 /*  ^^^^^^^^^^^^^^^^^^^^^^ Landing section ^^^^^^^^^^^^^^^^^^^^^^ */
 .landing-section {
     background-color: rgba(9, 9, 9, 1);
