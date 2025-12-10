@@ -153,6 +153,7 @@ button:focus:not(:focus-visible) {
     position: absolute;
     left: 0;
     z-index: -1;
+    background-attachment: fixed;
 }
 
 .landing-section .text h1 {
@@ -160,7 +161,7 @@ button:focus:not(:focus-visible) {
     font-family: var(--font-1);
 }
 
-.overlay::before {
+.hero-img::before {
     content: "";
     width: 100%;
     height: 100%;
